@@ -1,0 +1,79 @@
+a { text-decoration: none;}
+
+html { 
+  background: url(img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrap{
+	width: 100%;
+}
+
+#header{
+	width: 1000px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+#main{
+	width: 1000px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+#footer{
+	width: 1000px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.fontHeader{
+	font-size: 30px;
+	color: #1e345d;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.fontHeader:hover{
+  font-size: 30px;
+	color: #007bb5;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.fontMainLarge{
+	font-size: 35px;
+	color: #1e345d;
+	opacity: 1;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.fontMainRegular{
+	font-size: 20px;
+	color: #1e345d;
+	opacity: 1;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.fontFooter{
+	font-size: 15px;
+	color: #1e345d;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.roundedImage{
+	border-radius: 50%;
+}
+
+.button{
+  background-color: #1e345d;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 140px;
+  height: 45px;
+  vertical-align: middle;
+	line-height: 45px;  
+  text-align: center;
+}
