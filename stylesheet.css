@@ -1,91 +1,115 @@
-a { text-decoration: none;}
-
-html { 
-  background: url(img/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+a{ 
+  text-decoration: none;
 }
 
-#wrap{
+hr{
+  width: 75px;
+  background-color: #ffffff;
+  height:1px;
+  border: none;
+}
+
+html,body{ 
+  background-color: #7f8c8d;  
+  margin: 0;
+  padding: 0;
+}
+
+#white{
   width: 100%;
+  background-color: #ffffff;
 }
 
-#header{
-  width: 1000px;
-  background-color: #FFFFFF;
-  border-radius: 5px;
+#grey{
+  width: 100%;
+  background-color: #7f8c8d;
 }
 
-#main{
-  width: 1000px;
-  background-color: #FFFFFF;
-  border-radius: 5px;
+#textbox{
+  width: 50%;
 }
 
-#footer{
-  width: 1000px;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-}
-
-.fontHeader{
-  font-size: 30px;
+.name{
+  text-align:center;
+  font-size: 60px;
+  font-weight: bold;
   color: #7f8c8d;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;  
 }
 
-.fontHeader:hover{
-  font-size: 30px;
-  color: #2980b9; 
-  font-family: 'Alegreya Sans', sans-serif;
-}
-
-.fontMainLarge{
+.fontLargeGrey{
   font-size: 35px;
   color: #7f8c8d;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
 }
 
-.fontMainRegular{
-  font-size: 20px;
-  color: #7f8c8d;
-  opacity: 1;
-  font-family: 'Alegreya Sans', sans-serif;
+.fontLargeWhite{
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
+}
+
+.fontRegularWhite{
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
 }
 
 .fontFooter{
   font-size: 15px;
-  color: #7f8c8d;
-  font-family: 'Alegreya Sans', sans-serif;
-}
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
 
-.roundedImage{
-  border-radius: 50%;
 }
-
 .button{
+  width: 125px;
+  height: 50px;
   background-color: #7f8c8d;
-  border-radius: 50%;
-  color: #FFFFFF;
-  font-size: 30px;
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  line-height: 40px;  
+  color: #ffffff;
+  border-radius: 5px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
 
 .button:hover{
-  background-color: #FFFFFF;
-  border-radius: 50%;
+  background-color: #ffffff;
   color: #7f8c8d;
-  font-size: 30px;
-  width: 40px;
-  height: 40px;
+}
+
+.plus{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 25px;
+  text-align:center;
   vertical-align: middle;
-  line-height: 40px;  
-  text-align: center;
-	
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;    
+}
+
+.plus:hover{
+  color: #7f8c8d;
+  background-color: #ffffff;
 }
