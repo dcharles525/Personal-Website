@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>David C. Johnson</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>   
+    <script>
+      if (document.location.search.indexOf("skipmobile") >= 0) {
+        document.cookie = "skipmobile=1";
+      }else if ((document.location.hostname.match(/\.mobi$/) || screen.width < 699)&& document.cookie.indexOf("skipmobile") == -1){
+        document.location = "http://dalkapps.byethost31.com/me/mobile/index.html";
+      }
+    </script>
+  </head>
+  <body>
+		<div id="topDark">
+		</div>
+		<div id="topLight">	
+			<br>
+			<ul>
+				<li>
+					<a href="../index.html">David C. Johnson</a> 
+				</li>
+				<li>
+					|
+				</li>
+				<li>
+					<a href="more.html">More</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+				<li>
+					<a href="">Blog</a>
+				</li>
+			</ul>
+			<br>
+		</div>
+    <div id="white">
+			<br>
+			<div id="card">
+				<br>
+				<br>
+				<div class="fontLargeGrey">Accomplishments</div>
+				<br>
+				<div class="fontRegularGrey">FBLA Website Design Districts 2nd Place (2013)</div>
+				<div class="fontRegularGrey">FBLA Website Design State 2nd Place (2013)</div>
+				<div class="fontRegularGrey">FBLA Website Design Nationals Top 60 (2013)</div>
+				<div class="fontRegularGrey">FBLA Website Design Districts 4th Place (2014)</div>
+				<div class="fontRegularGrey">FBLA Website Design State 1st Place (2014)</div>
+				<div class="fontRegularGrey">FBLA Website Design Nationals 7th Place (2014)</div>
+				<br>
+				<br>
+				<br>
+				<div class="fontLargeGrey">School</div>
+				<br>
+				<div class="fontRegularGrey">Senior (Graduate 2015)</div>
+				<div class="fontRegularGrey">FBLA Chapter Webmaster/Officer (2013-2014)</div>
+				<div class="fontRegularGrey">FBLA Chapter Vice President (2014-2015)</div>
+				<div class="fontRegularGrey">Computer Programming and Engineering Completer</div>
+			</div>
+			<br>
+    </div>
+    <div id="grey"> 
+      <br>
+      <div class="fontFooter">©2014 David Charles Johnson</div>
+      <br>
+    </div>
+  </body>
+</html>
