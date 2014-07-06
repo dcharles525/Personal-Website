@@ -31,7 +31,7 @@
 					<a href="contact.html">Contact</a>
 				</li>
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="">Blog</a>
 				</li>
 			</ul>
 			<br>
@@ -41,23 +41,8 @@
 			<div id="card">
 				<br>
 				<br>
-				<div class="fontLargeGrey">Emails</div>
+				<div class="fontLargeGrey">Blog soon.</div>
 				<br>
-				<div class="fontRegularGrey">Personal: david@dcharles.me</div>
-				<br>
-				<br>
-				<div class="fontLargeGrey">Social</div>
-				<br>
-				<table width="15%" align="center">
-					<tr>
-						<td width="50%" align="center">
-							<a href="https://github.com/dcharles525" target="_Blank"><img src="../img/github.jpg" class="social"></a>
-						</td>
-						<td width="50%" align="center">
-							<a href="https://twitter.com/dcharles525" target="_Blank"><img src="../img/twitter.png" class="social"></a>
-						</td>
-					</tr>
-				</table>
 				<br>
 			</div>
 			<br>
