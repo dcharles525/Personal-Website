@@ -16,7 +16,7 @@
 		<div id="topDark">
 		</div>
 		<div id="topLight">	
-			<br>
+			<br />
 			<ul>
 				<li>
 					<a href="index.html">David C. Johnson</a>
@@ -28,38 +28,83 @@
 					<a href="sub/more.html">More</a>
 				</li>
 				<li>
-					<a href="sub/contact.html">Contact</a>
+					<a href="sub/projects.html">Projects</a>
 				</li>
 				<li>
 					<a href="sub/blog.html">Blog</a>
 				</li>
+				<li>
+					<a href="sub/contact.html">Contact</a>
+				</li>
 			</ul>
-			<br>
+			<br />
 		</div>
-    <div id="white">
-			<br>
-			<div id="card">
-				<br>
-				<br>
+    <div id="bg">
+			<br />
+			<br />
+			<br />
+			<br />
+			<div class="card">
+				<br />
+				<br />
+				<br />
 				<img src="img/me.jpg" class="imgMain">
-				<br>
-				<br>
-				<div class="fontLargeGrey">David C. Johnson</div>
-				<br>
-				<br>
-				<div class="fontLargeGrey">Programmer | Web Designer | Visionary</div>
-				<br>
-				<br>
-				<div class="fontLargeGrey"><em>Shaping the world in my vision, now.</em></div>
-				<br>
-				<br>
+				<br />
+				<br />
+				<div class="fontLarge">David C. Johnson</div>
+				<br />
+				<br />
+				<div class="fontLarge">Visionary | Programmer | Web Designer</div>
+				<br />
+				<br />
+				<div class="fontLarge"><em>Shaping the world in my vision, now.</em></div>
+				<br />
+				<br />
 			</div>
-			<br>
+			<br />
+			<br />
+			<div class="card">
+				<br />
+				<br />
+				<br />
+				<img src="https://lckin.com/icon.png" class="imgMain">
+				<br />
+				<div class="fontLarge">Lockin, a new way of file sharing.</div>
+				<br />
+				<div class="fontRegular">Lockin is my latest attempt at a successful internet comapny.
+				We are working around the clock to serve the common internet user cheap but secure 
+				services, check us out. <a href="https://lckin.com" target="_Blank" class="fontRegular">Link</a></div>
+				<br />
+				<br />
+				<br />
+			</div>
+			<br />
+			<br />
+			<div class="card">
+				<br />
+				<br />
+				<br />
+				<table width="15%" align="center">
+					<tr>
+						<td width="50%" align="center">
+							<a href="https://github.com/dcharles525" target="_Blank"><img src="img/github.png" class="social"></a>
+						</td>
+						<td width="50%" align="center">
+							<a href="https://twitter.com/dcharles525" target="_Blank"><img src="img/twitter.png" class="social"></a>
+						</td>
+					</tr>
+				</table>
+				<br />
+				<br />
+				<br />
+			</div>
+			<br />
+			<br />
     </div>
-    <div id="grey"> 
-      <br>
-      <div class="fontFooter">©2014 David Charles Johnson</div>
-      <br>
+    <div id="blue"> 
+      <br />
+      <div class="fontFooterWhite">©2014 David Charles Johnson</div>
+      <br />
     </div>
   </body>
 </html>

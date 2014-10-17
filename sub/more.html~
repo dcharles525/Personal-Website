@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>David C. Johnson</title>
     <link rel="stylesheet" type="text/css" href="../stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>   
+   <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <script>
       if (document.location.search.indexOf("skipmobile") >= 0) {
         document.cookie = "skipmobile=1";
@@ -28,52 +28,65 @@
 					<a href="more.html">More</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="projects.html">Projects</a>
 				</li>
 				<li>
-					<a href="">Blog</a>
+					<a href="blog.html">Blog</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
 			<br>
 		</div>
-    <div id="white">
-			<br>
-			<div id="card">
+    <div id="bg">
+			<br />
+			<br />
+			<br />
+			<br />
+			<div class="card">
+				<br />
+				<br />
+				<br />
+				<div class="fontLarge">Accomplishments</div>
 				<br>
-				<br>
-				<div class="fontLargeGrey">Accomplishments</div>
-				<br>
-				<div class="fontRegularGrey">FBLA Website Design Districts 2nd Place (2013)</div>
-				<div class="fontRegularGrey">FBLA Website Design State 2nd Place (2013)</div>
-				<div class="fontRegularGrey">FBLA Website Design Nationals Top 60 (2013)</div>
-				<div class="fontRegularGrey">FBLA Website Design Districts 4th Place (2014)</div>
-				<div class="fontRegularGrey">FBLA Website Design State 1st Place (2014)</div>
-				<div class="fontRegularGrey">FBLA Website Design Nationals 7th Place (2014)</div>
-				<br>
-				<br>
-				<br>
-				<div class="fontLargeGrey">School</div>
-				<br>
-				<div class="fontRegularGrey">Senior (Graduate 2015)</div>
-				<div class="fontRegularGrey">FBLA Chapter Webmaster/Officer (2013-2014)</div>
-				<div class="fontRegularGrey">FBLA Chapter Vice President (2014-2015)</div>
-				<div class="fontRegularGrey">Computer Programming and Engineering Completer</div>
-				<br>
-				<br>
-				<br>
-				<div class="fontLargeGrey">Boy Scouts</div>
-				<br>
-				<div class="fontRegularGrey">Order of the Arrow Member</div>
-				<div class="fontRegularGrey">Patrol Leader</div>
-				<div class="fontRegularGrey">Den Chief</div>
-				<br>
-				<br>
+				<div class="fontRegular">FBLA Website Design Districts 2nd Place (2013)</div>
+				<div class="fontRegular">FBLA Website Design State 2nd Place (2013)</div>
+				<div class="fontRegular">FBLA Website Design Nationals Top 60 (2013)</div>
+				<div class="fontRegular">FBLA Website Design Districts 4th Place (2014)</div>
+				<div class="fontRegular">FBLA Website Design State 1st Place (2014)</div>
+				<div class="fontRegular">FBLA Website Design Nationals 7th Place (2014)</div>
+				<br />
+				<br />
+				<br />
 			</div>
-			<br>
+			<div class="card">
+				<br />
+				<br />
+				<br />
+				<div class="fontLarge">School</div>
+				<br />
+				<div class="fontRegular">Senior (Graduate 2015)</div>
+				<div class="fontRegular">FBLA Chapter Webmaster/Officer (2013-2014)</div>
+				<div class="fontRegular">FBLA Chapter Vice President (2014-2015)</div>
+				<div class="fontRegular">Computer Programming and Engineering Completer</div>
+				<br />
+				<br />
+				<br />
+				<div class="fontLarge">Boy Scouts</div>
+				<br />
+				<div class="fontRegular">Order of the Arrow Member</div>
+				<div class="fontRegular">Patrol Leader</div>
+				<div class="fontRegular">Den Chief</div>
+				<br />
+				<br />
+				<br />
+			</div>
+			<br />
     </div>
-    <div id="grey"> 
+    <div id="blue"> 
       <br>
-      <div class="fontFooter">©2014 David Charles Johnson</div>
+      <div class="fontFooterWhite">©2014 David Charles Johnson</div>
       <br>
     </div>
   </body>
