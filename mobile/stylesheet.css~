@@ -2,7 +2,7 @@ html,body{
   background-color: #01579b;  
   margin: 0;
   padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 a{ 
@@ -66,7 +66,12 @@ li {
 	margin-left: auto;
   margin-right: auto;
 	background-color: #ffffff;
-	padding: 15px;
+	padding: 15px;position: relative;
+	text-align: center;
+}
+
+.card > paper-ripple {
+	color: #646464;
 }
 
 .fontLarge{
@@ -97,9 +102,35 @@ li {
   font-size: 20px;
   color: #ffffff;
   text-align:center;
-
 }
 
+.button {
+  display: inline-block;
+  position: relative;
+  width: 220px;
+  height: 60px;
+  line-height: 32px;
+  border-radius: 2px;
+  font-size: 0.9em;
+  background-color: #01579b;
+}
+    
+.button > paper-ripple {
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.button.raised {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+    
+.button.raised:active {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  transition-delay: 0s;
+}
+    
 .imgMain{
 	border-radius: 50%;
 	width: 250px;

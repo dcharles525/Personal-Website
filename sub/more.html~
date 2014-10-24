@@ -13,6 +13,7 @@
     </script>
   </head>
   <body>
+		<link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
 		<div id="topDark">
 		</div>
 		<div id="topLight">	
@@ -44,7 +45,9 @@
 			<br />
 			<br />
 			<br />
+			<br />
 			<div class="card">
+				<paper-ripple class="recenteringTouch" fit></paper-ripple>
 				<br />
 				<br />
 				<br />
@@ -60,7 +63,10 @@
 				<br />
 				<br />
 			</div>
+			<br />
+			<br />
 			<div class="card">
+				<paper-ripple class="recenteringTouch" fit></paper-ripple>
 				<br />
 				<br />
 				<br />
@@ -70,6 +76,14 @@
 				<div class="fontRegular">FBLA Chapter Webmaster/Officer (2013-2014)</div>
 				<div class="fontRegular">FBLA Chapter Vice President (2014-2015)</div>
 				<div class="fontRegular">Computer Programming and Engineering Completer</div>
+				<br />
+				<br />
+				<br />
+			</div>
+			<br />
+			<br />
+			<div class="card">
+				<paper-ripple class="recenteringTouch" fit></paper-ripple>
 				<br />
 				<br />
 				<br />
@@ -84,6 +98,8 @@
 			</div>
 			<br />
     </div>
+			<br />
+			<br />
     <div id="blue"> 
       <br>
       <div class="fontFooterWhite">©2014 David Charles Johnson</div>

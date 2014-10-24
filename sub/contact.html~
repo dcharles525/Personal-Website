@@ -13,6 +13,7 @@
     </script>
   </head>
   <body>
+		<link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
 		<div id="topDark">
 		</div>
 		<div id="topLight">	
@@ -44,7 +45,9 @@
 			<br />
 			<br />
 			<br />
+			<br />
 			<div class="card">
+				<paper-ripple class="recenteringTouch" fit></paper-ripple>
 				<br />
 				<br />
 				<br />
@@ -58,6 +61,10 @@
 			<br />
 			<br />
 			<div class="card">
+				<paper-ripple class="recenteringTouch" fit></paper-ripple>
+				<br />
+				<br />
+				<br />
 				<div class="fontLarge">Social</div>
 				<br />
 				<table width="15%" align="center">
