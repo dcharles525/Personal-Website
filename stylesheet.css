@@ -1,5 +1,5 @@
 html,body{ 
-  background-color: #01579b;  
+  background-color: #039be5;  
   margin: 0;
   padding: 0;
 	font-family: 'Roboto', sans-serif;
@@ -32,22 +32,8 @@ li > paper-ripple {
 
 #topDark{
 	z-index: 2;
-	position: fixed;
-	float: left;
-	background-color: #01579b;
-	height:10px;
-	width: 100%;
-}
-
-#topLight{
-	z-index: 1;
-	float: left;
-	position: fixed;
 	background-color: #039be5;
 	width: 100%;
-	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 #bg{
@@ -59,7 +45,7 @@ li > paper-ripple {
 
 #blue{
   width: 100%;
-  background-color: #01579b;
+  background-color: #039be5;
 }
 
 #textbox{
@@ -67,6 +53,26 @@ li > paper-ripple {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.wrapper{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.u{
+	width: 40px;
+	margin-top: 2px;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #ffffff
+}
+
+.rippleContainer{
+	position: relative;
+	width: 110px;
+  height: 40px;
 }
 
 .card{
@@ -78,8 +84,8 @@ li > paper-ripple {
   margin-right: auto;
 	background-color: #ffffff;
 	padding: 10px;
-	position: relative;
 	text-align: center;
+	border-radius: 5px;
 }
 
 .card > paper-ripple {
@@ -151,6 +157,9 @@ li > paper-ripple {
 	display: block;
 	margin-left: auto;
   margin-right: auto;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .social{
