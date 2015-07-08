@@ -1,6 +1,5 @@
 Personal-Website
 ================
 
-A website for my personal work, also done for a grade.
+A website for my personal work, soon to be fully materialized.
 
-<em> Licensed Under OSHLv1 </em>
