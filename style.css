@@ -1,0 +1,26 @@
+body{
+  background: #2c3e50;
+  background: -webkit-radial-gradient(circle, #34495e, #2c3e50);
+  background: -o-radial-gradient(circle, #34495e, #2c3e50);
+  background: -moz-radial-gradient(circle, #34495e, #2c3e50);
+  background: radial-gradient(circle, #34495e, #2c3e50);
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'POLYA';
+  font-style: normal;
+  font-weight: normal;
+  src: local('POLYA'), url('file:///home/dcharles/Documents/Personal-Website/font/POLYA.otf') format('opentype');
+}
+body {
+  font-family: 'POLYA', serif;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
