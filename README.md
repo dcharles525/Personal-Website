@@ -1,4 +1,3 @@
 Personal-Website
 ================
-
-WIP
+A site I built just because!
