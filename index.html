@@ -20,6 +20,10 @@
           </thead>
           <tbody>
             <tr>
+              <td>Caroline</td>
+              <td><a href="https://github.com/dcharles525/Caroline" target="_blank">https://github.com/dcharles525/Caroline</a></td>
+            </tr>
+            <tr>
               <td>Pho</td>
               <td><a href="https://github.com/dcharles525/pho" target="_blank">https://github.com/dcharles525/pho</a></td>
             </tr>
@@ -27,16 +31,39 @@
               <td>Crypt</td>
               <td><a href="https://github.com/dcharles525/crypt" target="_blank">https://github.com/dcharles525/crypt</a></td>
             </tr>
-            <tr>
-              <td>Caroline</td>
-              <td><a href="https://github.com/dcharles525/Caroline" target="_blank">https://github.com/dcharles525/Caroline</a></td>
-            </tr>
           </tbody>
         </table>
       </div>
     </div>
     <hr>
     <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h5>Caroline v0.1.0</h5>
+          <h6>Date: 3/14/20 | Author: David Johnson</h6>
+          <h6>
+            Its been a while since I talked about Caroline, but I have been quietly working on some significant upgrades to the charting library I call "Caroline", during my free time on some breaks.
+            <br /><br />
+            Firstly, why is another charting library needed? Well, there aren't many out there natively for Vala/GTK and using javascript based
+            ones (which are very popular) can be very taxing on the resources of your system. For example, I can display a couple of several live charts with
+            hundreds or thousands of data points while using less than 1% CPU (highly dependent on CPU) and ~30mb of RAM. As you can see below, a scatter plot with 10 points takes up a small ~2mb of RAM. Using the minimal amount of resources allows developers to do bolder things with these charts without worrying that user systems might not be able to keep up.
+            <img src="img/caroline-ram.png" width="100%" alt="Ram Usage Showing 2mb">
+            <img src="https://github.com/dcharles525/Caroline/raw/master/screenshots/5.png" width="100%" alt="Scatter Plot">
+            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/3.png" width="100%" alt="Applied Application (Crypt)">
+          </h6>
+        </div>
+        <div class="one-half column">
+          <h6>
+            Many might be wondering, what has else has changed since I last updated the library officially? Well, I completely re-wrote everything and studied the underlying canvas (Cairo) that allows Caroline to be possible to ensure I was doing things correctly and efficiently. Then I made it easy to plug in this library and create charts with just one line of code. There are also way more customizability options since not all charts are the same; developers can easily change dozens of different inputs at their leisure. Lastly, I added two new chart types, pie and scatter plots, which tested the extendability of the library. Below are some necessary screenshots of all types of charts.
+            <img src="https://github.com/dcharles525/Caroline/raw/master/screenshots/4.png" width="100%" alt="Pie Chart">
+            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/1.png" width="100%" alt="Line Chart">
+            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/2.png" width="100%" alt="Bar Chart">
+            <br /><br />
+            Next, I am going to work on line smoothing by taking advantage of bezier curves, benching marking with large data sets (million+), and more chart types! I also hope to take what I learned and apply it to other projects I have in the works that use similar underlying canvas libraries.
+          </h6>
+        </div>
+      </div>
+      <hr>
       <div class="row">
         <div class="one-half column">
           <h5>How Nintendo could make millions more by selling old consoles, virtually, with minimal effort.</h5>
