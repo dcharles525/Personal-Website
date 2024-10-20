@@ -1,124 +1,79 @@
 <html>
   <head>
     <title>David's Site</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="css/dark-theme.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register">
+		</script>
+		<link 
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css"
+			rel="stylesheet"
+		>
+		<style>
+			body {
+				font-family: "Space Grotesk", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: 300;
+				font-style: normal;
+				background-color: #cba27a;
+			}
+
+			a {
+				color: #234F1E;
+			}
+
+			#content {
+				width: 50%;
+				margin: 0 auto;
+			}
+
+			@media (max-width: 900px) {
+				#content { padding: 1rem; width: 100%; }
+			}
+		</style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <br />
-        <h1><strong>David's Site</strong></h1>
-        <table class="u-full-width">
-          <thead>
-            <tr>
-              <th>Open Source Project</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Caroline</td>
-              <td><a href="https://github.com/dcharles525/Caroline" target="_blank">https://github.com/dcharles525/Caroline</a></td>
-            </tr>
-            <tr>
-              <td>Pho</td>
-              <td><a href="https://github.com/dcharles525/pho" target="_blank">https://github.com/dcharles525/pho</a></td>
-            </tr>
-            <tr>
-              <td>Crypt</td>
-              <td><a href="https://github.com/dcharles525/crypt" target="_blank">https://github.com/dcharles525/crypt</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h5>Caroline v0.1.0</h5>
-          <h6>Date: 3/14/20 | Author: David Johnson</h6>
-          <h6>
-            Its been a while since I talked about Caroline, but I have been quietly working on some significant upgrades to the charting library I call "Caroline", during my free time on some breaks.
-            <br /><br />
-            Firstly, why is another charting library needed? Well, there aren't many out there natively for Vala/GTK and using javascript based
-            ones (which are very popular) can be very taxing on the resources of your system. For example, I can display a couple of several live charts with
-            hundreds or thousands of data points while using less than 1% CPU (highly dependent on CPU) and ~30mb of RAM. As you can see below, a scatter plot with 10 points takes up a small ~2mb of RAM. Using the minimal amount of resources allows developers to do bolder things with these charts without worrying that user systems might not be able to keep up.
-            <img src="img/caroline-ram.png" width="100%" alt="Ram Usage Showing 2mb">
-            <img src="https://github.com/dcharles525/Caroline/raw/master/screenshots/5.png" width="100%" alt="Scatter Plot">
-            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/3.png" width="100%" alt="Applied Application (Crypt)">
-          </h6>
-        </div>
-        <div class="one-half column">
-          <h6>
-            Many might be wondering, what has else has changed since I last updated the library officially? Well, I completely re-wrote everything and studied the underlying canvas (Cairo) that allows Caroline to be possible to ensure I was doing things correctly and efficiently. Then I made it easy to plug in this library and create charts with just one line of code. There are also way more customizability options since not all charts are the same; developers can easily change dozens of different inputs at their leisure. Lastly, I added two new chart types, pie and scatter plots, which tested the extendability of the library. Below are some necessary screenshots of all types of charts.
-            <img src="https://github.com/dcharles525/Caroline/raw/master/screenshots/4.png" width="100%" alt="Pie Chart">
-            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/1.png" width="100%" alt="Line Chart">
-            <img src="https://raw.githubusercontent.com/dcharles525/Caroline/master/screenshots/2.png" width="100%" alt="Bar Chart">
-            <br /><br />
-            Next, I am going to work on line smoothing by taking advantage of bezier curves, benching marking with large data sets (million+), and more chart types! I also hope to take what I learned and apply it to other projects I have in the works that use similar underlying canvas libraries.
-          </h6>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="one-half column">
-          <h5>How Nintendo could make millions more by selling old consoles, virtually, with minimal effort.</h5>
-          <h6>Date: 8/20/18 | Author: David Johnson</h6>
-          <h6>
-            <strong>Intro</strong>
-            <br>
-            I recently bought a Nintendo Switch after much debate on wether it would be worth the $300 price tag. I was definitly not disapointed with the portable console, it was everything from my childhood and much more. The graphics are pretty good, games are mostly priced reasonably, and the controller design was genius, while having a complete focus on gaming, nothing else.
-            <br /><br>
-The problem I had with the Switch was that I couldn't play old games. I would love to be able to play games that I obsessed over on the Gameboy SP or Nintendo DS, like Advanced Wars, Animal Crossing, and Pokemon Green. These are some of my all time favorite games, but they were weirdly absent from the Nintendo eStore.
-            <br /><br>
-So what if Nintendo allowed us to play older titles on the Switch? Well it would be totally awesome, but like the title of this short thought said they could make millions off allowing use to buy old games, and I am going to tell you how.
-            <br /><br>
-            <strong>Technical</strong>
-            <br>
-            As many of us probably know you can already emulate most Gameboy and DS games on our phones and PC's. The games play flawlessly, but what would Nintendo need to do to allow us to play these games on the Switch?
-            <br /><br>
-            Not Much.
-            <br /><br>
-            The Switch runs off the Free BSD Kernal which means it would be rather easy to add support for older games. They could either allow the Emulator to be downloaded from the store or just integrate support into the OS and have these games open like the regular Switch games. Also there has already been hackers that have been able to install a Debian Linux on the Switch, proving further more that emulation would be easy to support.
-            <br /><br>
-            The games could also be pushed into a "retro" section into the Nintendo store so it would be out of the way and still give priority to the newer games that would make Nintendo a lot more money.
-            <br /><br>
-            All of these techincal thoughts are purely based off of what I could find out about the Switch operating system and meta information.
-          </h6>
-        </div>
-        <div class="one-half column">
-          <h6>
-            <strong>Business</strong>
-            <br />
-            So how much does Nintendo need to charge to make this program worth it?
-            <br /><br>
-            Once again... Not Much.
-            <br /><br>
-            Nintendo could easily upload and sell these older titles for 99 cents, Espically games from the Gameboy consoles. Having the price be so low would also be really great for young kids or college students (like me) that are always tight on money and can't drop $60 dollars on a AAA title every other week. That being said if they decided to also make Gameboy or DS support downloadable from the store they could sell the emulator for 10-15 bucks and make loads more money off of dead hardware.
-            <br /><br>
-            The marketing side of the buisness wouldn't have to do much either, they could release these retro games in batches and alert users as they add games via their news application built into the Switch. This would essentially mean they would need spend nothing on marketing these older games. Improving their profit margin, since I assume they would have to convince the independent companies that developed these games to help them out a little.
-            <br /><br>
-            Speaking of the independent compaines, they would need to allow Nintendo to do this (not knowing of any previous deals they may have had) and possibly lend a hand making sure it would work perfectly on whatever emulator they put on the Switch. This would probably be the most challenging part of the entire project.
-            <br /><br>
-            <strong>Wrapping Up</strong>
-            <br />
-            So will Nintendo ever think about doing this or allow this? Probably not, (one can dream right?) but this could be a way to boost profits down the road if they can just figure out the right balance between allowing people to retro game and ripping off gaming enthusiasts from the early 2000's. For example Crash Bandicut just came out for the Switch which include three titles actually, but it was remastered and only $40 for the price of three games. This is a good start, while this isn't Nintendo doing all of the work, (its Activision) they are allowing it to happen, and lets hope that continues.
-            <br /><br>
-            <strong>Sources</strong>
-            <a href="https://en.wikipedia.org/wiki/Nintendo_Switch_system_software">https://en.wikipedia.org/wiki/Nintendo_Switch_system_software</a>
-          </h6>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <br />
-      <a href="https://mastodon.social/@dcharles525">Join Me On Mastodon</a>
-      <br />
-      <br />
-    </div>
+		<div id="content">
+			<h1>D's Site</h1>
+			<h3>Links</h3>
+			<ul>
+				<li>
+					<a href="https://github.com/dcharles525">Github</a>
+				</li>
+			</ul>
+			<h3>Library</h3>
+			<h4>A collection of books I have read, and would highly recommend!</h4>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li>Children of Time Series</li>
+							<li>Bobiverse Series</li>
+							<li>Sea of Tranquility</li>
+							<li>Three Body Problem Series</li>
+							<li>Sekret Machines Series</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li>Bushido, the Soul of Japan</li>
+							<li>Man's Search for Meaning</li>
+							<li>No Longer Human</li>
+							<li>The Woman in the Dunes</li>
+							<li>Sun and Steel</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li>The Eerie Silence</li>
+							<li>Our Mathematical Universe</li>
+							<li>The Pragmatic Programmer</li>
+							<li>CLEAN CODE</li>
+							<li>2001: A Space Odyssey (Series)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<h3>Blog</h3>
+		</div>
   </body>
 </html>
